@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="style1.css" type="text/css" rel="stylesheet" />
+	<!--[if lt IE 9]>   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">   </script>  <![endif]-->
+
+	<title>PixLand | Landing page</title>
+	<style>
+		.salutation {
+			background-color: white;
+			border: 5px dotted grey;
+			text-align: center;
+			padding: 3px;
+			margin: 0;
+			border-radius: 2em;
+			animation: borderColors 5s infinite normal;
+		}
+
+		@media(min-width:399px) {
+			.salutation {
+				background-color: white;
+				border: 5px dotted grey;
+				text-align: center;
+				width: 70%;
+				margin: 0 15% 0 15%;
+				animation: borderColors 3s infinite normal;
+
+			}
+		}
+
+		@keyframes borderColors {
+			0% {
+				border-top: 5px dotted orange;
+				border-right: 5px dotted green;
+				border-bottom: 5px dotted blue;
+				border-left: 5px dotted red;
+				background-color: orange;
+				color: green;
+			}
+
+			30% {
+				border-top: 5px dotted red;
+				border-right: 5px dotted orange;
+				border-bottom: 5px dotted green;
+				border-left: 5px dotted blue;
+				background-color: red;
+				color: blue;
+			}
+
+			70% {
+				border-top: 5px dotted blue;
+				border-right: 5px dotted red;
+				border-bottom: 5px dotted orange;
+				border-left: 5px dotted green;
+				background-color: blue;
+				color: orange;
+			}
+
+			100% {
+				border-top: 5px dotted green;
+				border-right: 5px dotted blue;
+				border-bottom: 5px dotted red;
+				border-left: 5px dotted orange;
+				background-color: green;
+				color: red;
+			}
+		}
+
+		.salutation h2 {
+			font-weight: bold;
+			font-size: large;
+			text-shadow: 1px 1px 2px black;
+		}
+
+		.kas {
+			color: rgb(0, 51, 0);
+			color: #003300;
+			letter-spacing: 2px;
+		}
+
+		.tips {
+			color: rgb(57, 124, 59);
+			color: #397c3b;
+			letter-spacing: 2px;
+		}
+
+		.salutation p {
+			margin: 0;
+			padding: 0;
+			font-size: small;
+			color: grey;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="siteBrand">
+				<a href="index.html"><img src="logos/sitebrand.png" alt="PixLand.com" /></a>
+			</div>
+		</div>
+		<div class="container">
+			<div class="menu-dropdown">
+				<div id="menuIcon">
+					<div class="menuIconDiv"></div>
+					<div class="menuIconDiv"></div>
+					<div class="menuIconDiv"></div>
+				</div>
+				<div class="dropdown-content">
+					<nav>
+
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="aboutUs.html">About</a></li>
+							<li><a href="contactUs.html">Contact</a></li><br />
+
+							<h4><a href="#">Pictures:</a></h4>
+							<ul class="subMenu">
+								<li><a href="wallpapers.html">Wallpapers</a></li>
+								<li><a href="pics+quotes.html">Picture Qoutes</a></li>
+								<li><a href="#">Tips</a></li>
+							</ul>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="salutation">
+			<h2>Welcome to <span class="kas">Pix</span><span class="tips">Land</span></h2>
+			<p><em>Your virtual land of pictures...</em></p>
+		</div>
+		<div id="bodyContents">
+
+			<section>
+				<!--This section is for the lastest post that appers on home page-->
+				<h4>Newest:</h4>
+				<div>
+					<h5>Wallpapers</h5>
+					<ul>
+						<li><a href="Wallpapers/wallpaper1.jpg" title="wallpaper"><img src="Wallpapers/wallpaper1.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper2.jpg" title="wallpaper"><img src="Wallpapers/wallpaper2.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper3.jpg" title="wallpaper"><img src="Wallpapers/wallpaper3.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper4.jpg" title="wallpaper"><img src="Wallpapers/wallpaper4.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper5.jpg" title="wallpaper"><img src="Wallpapers/wallpaper5.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper6.jpg" title="wallpaper"><img src="Wallpapers/wallpaper6.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper7.jpg" title="wallpaper"><img src="Wallpapers/wallpaper7.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper8.jpg" title="wallpaper"><img src="Wallpapers/wallpaper8.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper9.jpg" title="wallpaper"><img src="Wallpapers/wallpaper9.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper10.jpg" title="wallpaper"><img src="Wallpapers/wallpaper10.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper11.jpg" title="wallpaper"><img src="Wallpapers/wallpaper11.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper12.jpg" title="wallpaper"><img src="Wallpapers/wallpaper12.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper13.jpg" title="wallpaper"><img src="Wallpapers/wallpaper13.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper14.jpg" title="wallpaper"><img src="Wallpapers/wallpaper14.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper15.jpg" title="wallpaper"><img src="Wallpapers/wallpaper15.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper16.jpg" title="wallpaper"><img src="Wallpapers/wallpaper16.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper17.jpg" title="wallpaper"><img src="Wallpapers/wallpaper17.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper18.jpg" title="wallpaper"><img src="Wallpapers/wallpaper18.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper19.jpg" title="wallpaper"><img src="Wallpapers/wallpaper19.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper20.jpg" title="wallpaper"><img src="Wallpapers/wallpaper20.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper21.jpg" title="wallpaper"><img src="Wallpapers/wallpaper21.jpg" alt="image" /></a></li>
+						<li><a href="Wallpapers/wallpaper22.jpg" title="wallpaper"><img src="Wallpapers/wallpaper22.jpg" alt="image" /></a></li>
+
+					</ul>
+
+				</div>
+				<div>
+					<h5>Picture Quotes</h5>
+					<ul>
+						<li><a href="Pic+Quotes/Abraham_Lincoln.jpg" title="Abraham_Lincoln Qoute"><img src="Pic+Quotes/Abraham_Lincoln.jpg"
+								 alt="image" /></a></li>
+						<li><a class="fancybox" rel="group" href="Pic+Quotes/Einstein.jpg" title="Einstein"><img src="Pic+Quotes/Einstein.jpg"
+								 alt="image" /></a></li>
+						<li><img src="Pic+Quotes/Frost+Portrait.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/G-Andre-Gide.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/Henry_David_Thoreau.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/Jim_Yong_Kim.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/Lao-tzu-quotes.png" alt="image" /></li>
+						<li><img src="Pic+Quotes/Ludwig_Jacobowski.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/Mother_Teresa.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/NeilStrauss.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/Norman_Vincent.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/Shakespeare.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/TonyRobbins.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/William_James.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/mae-west.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/nelson_rolihlahla_mandela.jpg" alt="image" /></li>
+
+					</ul>
+
+				</div>
+				<div>
+					<h5>Funny Pictures</h5>
+					<ul>
+						<li><img src="Pic+Quotes/Abraham_Lincoln.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/Einstein.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/Frost+Portrait.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/G-Andre-Gide.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/Henry_David_Thoreau.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/Jim_Yong_Kim.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/Lao-tzu-quotes.png" alt="image" /></li>
+						<li><img src="Pic+Quotes/Ludwig_Jacobowski.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/Mother_Teresa.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/NeilStrauss.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/Norman_Vincent.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/Shakespeare.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/TonyRobbins.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/William_James.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/mae-west.jpg" alt="image" /></li>
+						<li><img src="Pic+Quotes/nelson_rolihlahla_mandela.jpg" alt="image" /></li>
+
+					</ul>
+
+				</div>
+			</section>
+			<!--section ends-->
+
+
+		</div>
+		<!--End of the body contents-->
+	</div>
+	<footer>
+		<h4>Kas</h4>
+		<p>Electrical and Electronic engineering by education, web designer by passion.
+			<br />Click <a href="https:\\wa.me\09020344640?">HERE</a> to make enquiry or complaint.
+		</p>
+	</footer>
+</body>
+
+</html>
